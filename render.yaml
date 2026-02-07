@@ -15,7 +15,6 @@ services:
         value: /data/workspace
       - key: OPENCLAW_GATEWAY_TOKEN
         generateValue: true
-    port: 18789
     disk:
       name: openclaw-data
       mountPath: /data
