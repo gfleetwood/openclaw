@@ -5,8 +5,8 @@ services:
     plan: pro
     healthCheckPath: /health
     envVars:
-      - key: PORT
-        value: 18789
+      - key: OPENCLAW_GATEWAY_PORT
+        fromGroup: PORT
       - key: SETUP_PASSWORD
         sync: false
       - key: OPENCLAW_STATE_DIR
